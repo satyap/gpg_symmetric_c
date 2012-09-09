@@ -1,0 +1,12 @@
+Encrypt/decrypt with GPG symmetric encryption
+
+= Test/Development
+
+gem install bundler
+bundle install
+rake
+
+= Credits
+
+symmetric_gpg exists, but calls out to an executable via pipes and threads.
+This is intended to use GPG using C library functions, so should be faster.
