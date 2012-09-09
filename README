@@ -1,5 +1,9 @@
 Encrypt/decrypt with GPG symmetric encryption
 
+= Requirements
+
+libgpg-dev
+
 = Test/Development
 
 gem install bundler
